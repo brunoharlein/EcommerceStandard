@@ -29,7 +29,7 @@ function deleteProduct($delId) {
 }
 // vider le panier
 function emptyBasket(){
- $_SESSION["bascket"] =[];
+ $_SESSION["basket"] =[];
  $_SESSION["total"] =0;
 }
 if (isset($id)){

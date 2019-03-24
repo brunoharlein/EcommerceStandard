@@ -11,6 +11,6 @@
     ?>
   </ul>
   <a href="logOut.php"><button type="button" class="btn btn-danger">deconnexion</button></a>
-  <a href="basketTreatment.php"><button type="button" class="btn btn-warning">Panier à 0</button></a>
+  <a href="basketTreatment.php?emptyBasket=true"><button type="button" class="btn btn-warning">Panier à 0</button></a>
 
 </aside>
